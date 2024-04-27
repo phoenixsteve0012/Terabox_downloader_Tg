@@ -1,0 +1,35 @@
+services:
+  - type: web
+    plan: free
+    name: 
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/phoenixsteve0012/Terabox_downloader_Tg    
+    branch: main
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: OWNWER_ID 
+        sync: false
+      - key: REDIS_HOST 
+        sync: false
+      - key: REDIS_PORT
+        sync: false 
+      - key: REDIS_PASSWORD 
+        sync: false
+      - key: PRIVATE_CHAT_ID 
+        sync: false 
+      - key: USER_CHANNEL
+        sync: false
+      - key: DUMP_CHANNEL
+        sync: false
+      - key: COOKIE 
+        sync: false
+      - key: ADMINS
+        sync: false 
+    autoDeploy: false 
