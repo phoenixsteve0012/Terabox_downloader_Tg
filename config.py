@@ -2,7 +2,7 @@ from os import environ
 
 
 # BOT CONFIG
-API_ID = environ.get("API_ID", 31165589)  # api id
+API_ID = environ.get("API_ID", 21165589)  # api id
 API_HASH = environ.get("API_HASH", "8cc762f4873e84a7cf0cbfd66a07244b")  # api hash
 BOT_TOKEN = environ.get("BOT_TOKEN", "7046411772:AAHPnRpW32IdLE2SoeUHP_bZpUkpeDy09EQ")  # bot token
 
