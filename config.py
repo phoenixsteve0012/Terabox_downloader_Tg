@@ -22,4 +22,5 @@ DUMP_CHANNEL = -1002018602619
 
 
 # Config
+port = 6754
 COOKIE = environ.get("COOKIE", "YeF7XCeteHuiL845rTAgb6K8eyyTcwk8lnaSyMTD")
