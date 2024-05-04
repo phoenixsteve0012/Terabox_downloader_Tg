@@ -14,7 +14,7 @@ async def web_server():
     return web_app
 
 app = Flask(__name__)
-port = int(os.environ.get('POT', 4650))
+port = 6754
 
 @app.route('/')
 def hello_world():
